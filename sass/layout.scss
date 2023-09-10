@@ -39,8 +39,6 @@ header {
   overflow: hiddne;
 
   .container {
-
-    padding: 0px;
     display: flex;
     justify-content: flex-start;
     justify-content: flex-start;
@@ -85,6 +83,10 @@ header {
   min-height: 400px;
   background: #efefef;
   overflow: hidden;
+
+  .container {
+    padding: 0 12px;
+  }
 }
 
 @media screen and (min-width:768px) {
